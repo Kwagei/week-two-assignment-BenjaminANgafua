@@ -6,12 +6,15 @@
         <title>Registration Form</title>
         <link rel="stylesheet" href="RegistrationForm.css">
     </head>
-    <body>
-        <h1 style="align-content: center;">Benjamin & Kumba Academy</h1>
-        <h2 style="align-content: center;">Center Street-Montserrado</h2>
-        <h3 style="align-content: center;">Student Registration Form</h3>
-        <hr><hr>
+    <body class="body">
+        <h1 class="h1">Benjamin & Kumba Academy</h1>
+        <h2 class="h2">Center Street-Montserrado</h2>
+        <h3 class="h3">Student Registration Form</h3>
+        <hr><hr> <br>
         <form method="POST">
+            <div>
+                <input type="file">
+            </div>
             <table>
                 <tbody>
                     <tr>
@@ -23,6 +26,12 @@
                             <input type="text" placeholder="Last Name">
                             <input type="text" placeholder="First Name">
                             <input type="text" placeholder="Middle Name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <br> 
                         </td>
                     </tr>
                     <tr>
@@ -37,12 +46,24 @@
                             </select>
                         </td>
                     </tr>
+
+                    <tr>
+                        <td>
+                            <br> 
+                        </td>
+                    </tr>
                     <tr>
                         <td>
                             Date of Birth:
                         </td>
                         <td>
                             <input type="date">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <br> 
                         </td>
                     </tr>
                     <tr>
@@ -71,10 +92,20 @@
                     </tr>
                     <tr>
                         <td>
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             Password:
                         </td>
                         <td>
                             <input type="password" placeholder="Password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br> 
                         </td>
                     </tr>
                     <tr>
@@ -87,10 +118,15 @@
                     </tr>
                     <tr>
                         <td>
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             Phnoe no:
                         </td>
                         <td>
-                            <select name="code">
+                            <select name="Country code">
                                 <option value="+234">+235</option>
                                 <option value="+111">+111</option>
                                 <option value="+231">+231</option>
@@ -99,16 +135,17 @@
                                 <input type="tel" placeholder="0880971128">
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <br> 
-                        </td>
-                    </tr>
+                <!--Parental Information use-->
+                    <br>
                     <tr>
                         <td> 
                             <b>Parents Information</b> 
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <br></td>
+                        </td>
                     <tr>
                         <td>
                         <b>Father Name:</b>
@@ -121,6 +158,11 @@
                     </tr>
                     <tr>
                         <td>
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                         Gender:
                         </td>
                         <td>
@@ -129,6 +171,11 @@
                                 <option value="Female">Female </option>
                                 <option value="Other">Other </option>
                             </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br> 
                         </td>
                     </tr>
                     <tr>
@@ -146,10 +193,15 @@
                     </tr>
                     <tr>
                         <td>
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             Phnoe no :
                         </td>
                         <td>
-                            <select name="code">
+                            <select name="Country Code">
                                 <option value="+234">+235</option>
                                 <option value="+111">+111</option>
                                 <option value="+231">+231</option>
@@ -187,6 +239,11 @@
                     </tr>
                     <tr>
                         <td>
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                         Mother's Occupation:
                         </td>
                         <td>
@@ -200,10 +257,15 @@
                     </tr>
                     <tr>
                         <td>
-                            Phnoe no :
+                            <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phnoe no:
                         </td>
                         <td>
-                            <select name="code">
+                            <select name="Country Code">
                                 <option value="+234">+235</option>
                                 <option value="+111">+111</option>
                                 <option value="+231">+231</option>
@@ -212,13 +274,17 @@
                             <input type="tel" placeholder="0880971128">
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" value="submit"> 
-                        </td>
-                    </tr>
                 </tbody>
             </table>
+            <tr>
+                <td>
+                    <br> 
+                </td>
+            </tr>
+            <footer>
+            <textarea name="name" cols="30" rows="10"> Comment</textarea>
+            <input type="submit" name="submit" value="submit">
+        </footer>
         </form>
     </body>
 </html>

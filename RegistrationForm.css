@@ -1,4 +1,19 @@
-*{margin: 0; padding: 0;
+.body{
+    margin: 20px;
+}
+
+
+.h1{
+    text-align-last:center;
+}
+.h2{
+    text-align-last:center;
+}
+.h3{
+    text-align-last:center;
+}
+
+main{margin: 0; padding: 0;
     box-sizing: border-box;
 }
 main{
