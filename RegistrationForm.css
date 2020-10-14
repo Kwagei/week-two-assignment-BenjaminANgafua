@@ -9,7 +9,7 @@ main{
     grid-template-rows: 60px 200px 90px 60px;
     grid-template-columns: repeat(3, 1fr ) 150px ;
     grid-gap: 10px;
-    text-align-last: center;
+    text-align-last:center;
 }
 
 .div1{background-color: rgb(21, 156, 219);
