@@ -1,0 +1,12 @@
+.address{
+    margin-top: 50px;
+}
+
+table, th, td {
+    height: 50;
+    table-layout: fixed;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px 170px 10px 170px;
+}
