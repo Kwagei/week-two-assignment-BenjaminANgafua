@@ -1,9 +1,12 @@
-.h1{
-    text-align-last:center;
+body{
+    background-color: gray;
 }
-.h2{
-    text-align-last:center;
-}
-.h3{
-    text-align-last:center;
+div{ background-color:orange;
+    padding: 3% 2% 2%  2%;
+    border-radius: 5%;
+    border: groove gray 14px;
+    width: 25%;
+    color: bold black;
+    text-align: initial;
+    margin: 5% 30% 30% 30%;
 }
