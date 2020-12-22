@@ -1,12 +1,57 @@
-.address{
+.address {
     margin-top: 50px;
 }
 
-table, th, td {
+div {
+    border: groove green;
+    border-width: 5px;
+    margin: 5% 25% 5% 20%;
+    padding: 0px 5px 10px 5px;
+}
+
+table,
+th,
+td {
     height: 50;
     table-layout: fixed;
     font-size: 17px;
     border-collapse: collapse;
     border: 1px solid black;
-    margin: 10px 170px 10px 170px;
+}
+
+.tr {
+    background: orange;
+    text-align: left;
+}
+
+.center {
+    text-align: start;
+}
+
+.align,
+table {
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.average {
+    background: gray;
+}
+
+.td {
+    background: #3c8a4e;
+}
+
+.img {
+    align-self: auto;
+}
+
+th:hover {
+    background: orange;
+}
+
+.center:hover {
+    background-color: aqua;
+    color: wheat;
 }

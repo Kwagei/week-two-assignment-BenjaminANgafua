@@ -1,3 +1,59 @@
-body{
+body {
     background: gray;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px 60px 20px 200px;
+    font-family: Helvetica;
+}
+
+.month {
+    text-align: center;
+    background: rgb(1, 9, 24);
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid skyblue;
+}
+
+table,
+th,
+td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid skyblue;
+}
+
+tr,
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background: rgb(131, 3, 3);
+    color: white;
+}
+
+td {
+    background: #061108;
+    color: #fff;
+}
+
+td:hover {
+    background: rgb(255, 196, 0);
+    color: #000;
+}
+
+@media(max-width:550px) {
+    .container {
+        max-width: 800px;
+        margin: 10px 0px 0px 0px;
+        font-family: Helvetica;
+    }
 }

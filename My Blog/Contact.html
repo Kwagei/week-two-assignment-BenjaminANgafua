@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+    <style>
+        div {
+            border-radius: 50px;
+            background: rgb(255, 187, 0);
+            padding: 20px 50px 60px 50px;
+            margin: 10px 430px 100px 420px;
+        }
+        
+        body {
+            background-image: linear-gradient(rgba(0, 0, 8, 0.247), rgba(0, 0, 0, 0.568)), url(back.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1;
+            text-decoration: none;
+            margin-top: 5%;
+        }
+        
+        #input {
+            background: blue;
+            color: white;
+            border-radius: 6%;
+            font-size: 20px;
+            margin: 2%;
+            font-family: Impact, sans-serif;
+            text-align: center;
+            align-self: center;
+            width: 30%;
+        }
+        
+        @media (max-width: 550px) {
+            div {
+                border-radius: 40px;
+                background: rgb(255, 187, 0);
+                padding: 5px 1px 10px 10px;
+                margin: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../profolio/portfolio.html" style="text-decoration: none; color: chartreuse; float: left; margin-left: 20%;"> <strong>My Portfolio</strong> </a>
+    <div style="text-align: center;">
+        <header style="text-align: center;">
+            <h1>Contact Me</h1>
+            <p>Du-port Road <br> Monrovia-Liberia</p>
+        </header>
+        <hr>
+        <form method="POST">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style=" font-size: 20px;">
+                            Name:
+                        </td>
+                        <td>
+                            <input style="border-radius:2px; font-size: 12px; height: 5%;;" type="text" placeholder="Benjamin A. Nagafua" required autocapitalize="words">
+                        </td>
+                        <tr>
+                            <td>
+                                <br>
+                            </td>
+                            <td>
+                                <br>
+                            </td>
+                            <tr>
+                                <td style=" font-size: 20px;">
+                                    Email:
+                                </td>
+                                <td>
+                                    <input style="border-radius:3px;" type="text" placeholder="ex.@gmail.com" required>
+                                </td>
+                            </tr>
+                            <td>
+                                <br>
+                            </td>
+                            <tr>
+                                <td style=" font-size: 20px;">
+                                    Password:
+                                </td>
+                                <td>
+                                    <input style="border-radius:3px;" type="password" placeholder="password" required>
+                                </td>
+                                <td>
+                                    <br>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <textarea style="border-radius:10px;" name="name" cols="30" rows="10" spellcheck="true" required autocapitalize="sentences"></textarea> <br>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+
+</html>
