@@ -14,3 +14,52 @@ main {
     padding-top: 20px;
     background-color: rgb(121, 14, 97);
 }
+
+* {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background: rgb(2, 8, 37);
+    margin: 5%;
+    font-size: 20px;
+}
+
+nav {
+    flex: 1;
+    float: right;
+}
+
+nav ul {
+    margin-left: 50px;
+    display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+
+nav ul li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
