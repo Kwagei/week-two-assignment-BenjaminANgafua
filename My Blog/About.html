@@ -5,151 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
 
-    <head>
-        <style>
-            body {
-                background: rgb(52, 52, 109);
-                color: aliceblue;
-                border-radius: 2%;
-                border-color: black;
-                margin-left: 5%;
-            }
-            
-            form {
-                font-size: large;
-                margin: 5% 10%;
-            }
-            
-            div {
-                text-align: center;
-                margin: 5% 10% 0% 10%;
-            }
-            
-            h2 {
-                text-align: center;
-            }
-            
-            a {
-                text-decoration: none;
-                color: chartreuse!important;
-            }
-            
-            #photo {
-                border-radius: 50px;
-            }
-            
-            #aligning {
-                display: flex;
-                gap: 2%;
-            }
-            
-            nav {
-                margin-top: -5%;
-                flex: 1;
-                float: left;
-            }
-            
-            nav ul {
-                margin-left: 50px;
-                display: inline;
-            }
-            
-            nav ul li {
-                list-style: none;
-                display: inline-block;
-                padding: 8px 25px;
-            }
-            
-            nav ul li::after {
-                content: "";
-                width: 0;
-                height: 2px;
-                background: yellow;
-                display: block;
-                margin: auto;
-                transition: .5s;
-            }
-            
-            nav ul li:hover::after {
-                width: 100%;
-            }
-        </style>
-    </head>
+<body>
 
-    <body>
-        <nav>
-            <ul>
-                <a href="../Calendar/index.html" target="_blank">
-                    <li>Calendar</li>
-                </a>
-                <a href="../My Blog/Blog.html" target="_blank">
-                    <li> Home</li>
-                </a>
-                <a href="../profolio/portfolio.html" target="_blank">
-                    <li> Portfolio</li>
-                </a>
-                </a>
-                <a href="../Registration Form/Registration.html" target="_blank">
-                    <li> Registration Form</li>
-                </a>
-                </a>
-                <a href="../Report Card/HTML.html" target="_blank">
-                    <li> Report Card</li>
-                </a>
-                <a href="./Contact.html" target="_blank">
-                    <li>Contact</li>
-                </a>
-                <a href="Aboutpage.html" target="_blank">
-                    <li>About</li>
-                </a>
+    <nav>
+        <ul>
+            <li><a href="./portfolio.html" target="_blank">Home</a></li>
+            <li><a href="../My Blog/Contact.html" target="_blank">Contact</a></li>
+            <li><a href="../My Blog/About.html" class="active" target="_blank">About</a></li>
+            <li><a href="#footer">Bottom</a></li>
+        </ul><br>
+    </nav> <br>
+    <div>
+        <img id="photo" src="./Benjamin" alt="my picture" height="300px" width="300px">
+    </div>
+    <form action="list">
+        <table>
+            <label for="name">Name: Benjamin A. Ngafua</label> <br> <br>
+            <label for="DOB">Date of Birth: March 17, 1997</label><br> <br>
+            <label for="qua">Qualification: High School Graduate</label><br> <br>
 
-            </ul>
-        </nav>
-        <div>
-            <img id="photo" src="./Benjamin" alt="my picture" height="450px" width="400px">
-            <h1>Personal Detail</h1>
-        </div>
-        <form action="list">
-            <table>
-                <label for="name">Name: Benjamin A. Ngafua</label> <br> <br>
-                <label for="DOB">Date of Birth: March 17, 1997</label><br> <br>
-                <label for="qua">Qualification: High School Graduate</label><br> <br>
-
-                <label for="" id="aligning">Follow me on:
-                
-                    <a href="#"><img src="./Twitter.jpg" width="50px" height="40px" alt="twitter">
+            <label for="" id="aligning">Accounts: <br> <br>
+    
+                    <a href="#"><img src="./Twitter.jpg" width="20px" height="15px" alt="twitter">
                     </a>
-                    <a href="#"><img src="./instagram.jpeg" width="50px" height="40px" alt="instagram">
+                    <a href="#"><img src="./instagram.jpeg" width="20px" height="15px"alt="instagram">
+                    </a>
+                    <a href="#"><img src="./Facebook.jpg" width="20px" height="15px" alt="facebook">
                     </a>
                     <a href="#" alt="linkedIn">linkedIn
                     </a>
                     <a href="#" alt="WhatApps">WhatApps
                     </a>
-                    <a href="#" alt="email">email
-                    </a>
                     <a href="#" alt="GitHub">GitHub
-                    </a>
-                    <a href="#"><img src="./Facebook.jpg" width="50px" height="40px" alt="facebook">
-                    </a>
+                    </a><br> <br>
+                    <a href="#" alt="email">benjaminarkutl2017@gmail.com
+                    </a><br>
+                    Tell: +231(0)881194808/+231(0)775939247/+231(0)880971128
                 </label>
-                <br> <br>
-                <label for="contact">email: benjaminarkutl2017@gmail.com</label><br> <br>
-                <label for="contact">Tell: +231(0)881194808/+231(0)775939247/+231(0)880971128</label>
+        </table>
 
-            </table>
-
-            <p>
-                <h3>Ambition</h3>
-                Aiming to become world class software engineer
-
-            </p>
-            <p>
-                <b>Motto:</b> Gearing to transform the life of people who matter the most for a better tomorrow.
-            </p>
-        </form>
+        <p>
+            <strong>Ambition </strong> <br> Aiming to become world class software engineer
+        </p>
+        <p>
+            <b>Motto:</b> Reaching for the star.
+        </p>
+    </form>
+    <footer>
         <a href="MyPortfolioWebsite.html" target="_blank">Portfolio</a>
-
-    </body>
+        <a href="../My Blog/Blog.html" target="_blank">
+             Home
+            </a>
+        <a href="./Contact.html" target="_blank">
+                Contact
+            </a>
+        <a href="Aboutpage.html" target="_blank">
+                About
+            </a>
+    </footer>
+</body>
 
 </html>

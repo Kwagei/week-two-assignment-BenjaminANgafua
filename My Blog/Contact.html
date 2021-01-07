@@ -4,50 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Contact</title>
-    <style>
-        div {
-            border-radius: 50px;
-            background: rgb(255, 153, 0);
-            padding: 20px 50px 60px 50px;
-            margin: 10px 430px 100px 420px;
-        }
-        
-        body {
-            background-image: linear-gradient(rgba(0, 0, 8, 0.247), rgba(0, 0, 0, 0.568)), url(back.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 1;
-            text-decoration: none;
-            margin-top: 5%;
-        }
-        
-        #input {
-            background: blue;
-            color: white;
-            border-radius: 6%;
-            font-size: 20px;
-            margin: 2%;
-            font-family: Impact, sans-serif;
-            text-align: center;
-            align-self: center;
-            width: 30%;
-        }
-        
-        @media (max-width: 550px) {
-            div {
-                border-radius: 40px;
-                background: rgb(255, 187, 0);
-                padding: 5px 1px 10px 10px;
-                margin: 0px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
-    <a href="../profolio/portfolio.html" style="text-decoration: none; color: chartreuse; float: left; margin-left: 20%;"> <strong>My Portfolio</strong> </a>
+    <nav>
+        <ul>
+            <li><a href="./portfolio.html" target="_blank">Home</a></li>
+            <li><a href="../My Blog/Contact.html" class="active" target="_blank">Contact</a></li>
+            <li><a href="../My Blog/About.html" target="_blank">About</a></li>
+            <li><a href="#footer">Bottom</a></li>
+        </ul><br>
+    </nav>
     <div style="text-align: center;">
         <header style="text-align: center;">
             <h1>Contact Me</h1>
@@ -95,9 +64,19 @@
                             </tr>
                 </tbody>
             </table>
-            <textarea style="border-radius:10px;" name="name" cols="30" rows="10" spellcheck="true" required autocapitalize="sentences"></textarea> <br>
+            <textarea style="border-radius:10px;" name="name" cols="30" rows="10" spellcheck="true" required type="text" autocapitalize="sentences"></textarea> <br>
             <button type="submit">Submit</button>
         </form>
+    </div>
+    <footer id="footer">
+        &copy;copyright all right reserveed &nbsp;
+        <a href="https://web.facebook.com/BenjaminArkuTL">
+            <img src="./Facebook.jpg" width="1.8%" alt="facebook"></a> &nbsp;
+        <a href="https://www.instagram.com/benjamin_a_ngafua_official/?hl=af" target="_blank">
+            <img src="./instagram.jpg" alt="instagram" width="1.8%">
+        </a>
+        <a href="../My Blog/Blog.html" target="_blank">Blog Page</a>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(1, 1, 22);
+    margin-top: 5%;
+    padding: 5px 0 0 0;
+    display: flex;
+    min-height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+
+nav {
+    background: lightgray;
+    width: 100%;
+    position: fixed;
+    font-size: x-large;
+    top: 0px;
+    left: 0px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    color: black;
+    display: block;
+}
+
+nav>ul>li>a {
+    padding: 10px;
+    background: lightgray;
+}
+
+nav .active {
+    background: rgb(3, 80, 245);
+    color: lightyellow;
+}
+
+nav li {
+    border-right: 1px solid rgb(2, 2, 2);
+}
+
+nav li:last-child {
+    border: none;
+}
+
+nav>ul>li {
+    background: lightgray;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+nav>ul>li>a:hover {
+    background: rgb(3, 80, 245);
+    color: lightyellow;
+}
+
+footer {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    display: block;
+}
+
+form {
+    margin: auto 20%;
+}
+
+#photo {
+    border-radius: 50%;
+}
+
+#aligning {
+    display: inline-block;
+}
+
+@media (max-width: 940px) {
+    body {
+        display: block;
+        margin: 8px;
+    }
+    form {
+        margin: auto 10% auto 15%;
+    }
+    #aligning {
+        display: block;
+        gap: 2%;
+    }
+    .icon {
+        border-radius: 3px;
+    }
+    label {
+        cursor: default;
+    }
+    nav ul {
+        margin-left: 0px;
+        display: inline;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 4px 5px;
+    }
+    form {
+        display: block;
+        margin-top: 0em;
+        font-size: medium;
+        margin: 0% 0%;
+    }
+    #photo {
+        border-radius: 50px;
+        height: 250px;
+        aspect-ratio: auto 200 / 250;
+        width: 200px;
+    }
+}

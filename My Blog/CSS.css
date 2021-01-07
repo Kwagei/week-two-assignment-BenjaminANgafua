@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(22, 73, 131);
-    color: aliceblue;
+    background: rgb(2, 8, 37);
+    margin: 0;
+    padding: 0;
     font-size: 20px;
+    font-size: 20px;
+    color: azure;
 }
 
 main {
@@ -15,28 +22,21 @@ main {
     background-color: rgb(121, 14, 97);
 }
 
-* {
-    color: white;
-}
-
 a {
     text-decoration: none;
-    color: #fff;
 }
 
 header {
     text-align: center;
 }
 
-body {
-    background: rgb(2, 8, 37);
-    margin: 5%;
-    font-size: 20px;
-}
-
 nav {
-    flex: 1;
-    float: right;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 7) !important;
 }
 
 nav ul {
@@ -46,6 +46,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    border-right: 1px solid black;
     display: inline-block;
     padding: 8px 25px;
 }
@@ -54,12 +55,47 @@ nav ul li::after {
     content: "";
     width: 0;
     height: 2px;
-    background: yellow;
+    background: rgb(0, 174, 255);
     display: block;
     margin: auto;
-    transition: .5s;
+    transition: .2s;
 }
 
 nav ul li:hover::after {
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding-left: 24px;
+}
+
+@media (max-width: 940px) {
+    * {
+        font-size: medium;
+    }
+    body {
+        display: block;
+        margin: 8px;
+    }
+    nav ul {
+        margin-left: 0px;
+        display: inline;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 4px 5px;
+    }
+    video {
+        height: 250px;
+        width: 250px;
+    }
+    audio {
+        height: 100px;
+        width: 200px;
+    }
+    footer {
+        text-align: center;
+    }
 }

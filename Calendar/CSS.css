@@ -50,10 +50,20 @@ td:hover {
     color: #000;
 }
 
-@media(max-width:550px) {
+@media(max-width:950px) {
     .container {
         max-width: 800px;
         margin: 10px 0px 0px 0px;
         font-family: Helvetica;
+    }
+    table,
+    th,
+    td {
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        font-size: 13px;
+        border-collapse: collapse;
+        border: 1px solid skyblue;
     }
 }
