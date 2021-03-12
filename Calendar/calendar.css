@@ -1,0 +1,130 @@
+ body {
+     background: rgb(39, 39, 39);
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+     height: 100vh;
+     font-size: 20px;
+     color: azure;
+ }
+ 
+ nav {
+     background: lightgray;
+     width: 100%;
+     position: fixed;
+     font-size: x-large;
+     top: 0px;
+     left: 0px;
+ }
+ 
+ nav>ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ nav a {
+     color: black;
+     display: block;
+ }
+ 
+ nav>ul>li>a {
+     padding: 10px;
+     background: lightgray;
+ }
+ 
+ nav .active {
+     background: rgb(3, 80, 245);
+     color: lightyellow;
+ }
+ 
+ nav li {
+     border-right: 1px solid rgb(2, 2, 2);
+ }
+ 
+ nav li:last-child {
+     border: none;
+ }
+ 
+ nav>ul>li {
+     background: lightgray;
+     width: 15%;
+     float: left;
+     text-align: center;
+ }
+ 
+ nav>ul>li>a:hover {
+     background: rgb(3, 80, 245);
+     color: lightyellow;
+ }
+ 
+ .container {
+     max-width: 800px;
+     margin: 100px 60px 20px 200px;
+     font-family: Helvetica;
+ }
+ 
+ .month {
+     text-align: center;
+     background: rgb(1, 9, 24);
+     font-size: 2.5em;
+     letter-spacing: 1px;
+     color: #fff;
+     padding: 15px;
+     border: 1px solid skyblue;
+ }
+ 
+ table,
+ th,
+ td {
+     width: 100%;
+     table-layout: fixed;
+     text-align: center;
+     font-size: 17px;
+     border-collapse: collapse;
+     border: 1px solid skyblue;
+ }
+ 
+ tr,
+ th,
+ td {
+     padding: 10px;
+ }
+ 
+ th {
+     background: rgb(131, 3, 3);
+     color: white;
+ }
+ 
+ td {
+     background: #061108;
+     color: #fff;
+ }
+ 
+ td:hover {
+     background: rgb(255, 196, 0);
+     color: #000;
+ }
+ 
+ @media(max-width:950px) {
+     .container {
+         max-width: 800px;
+         margin: 10px 0px 0px 0px;
+         font-family: Helvetica;
+     }
+     table,
+     th,
+     td {
+         width: 100%;
+         table-layout: fixed;
+         text-align: center;
+         font-size: 13px;
+         border-collapse: collapse;
+         border: 1px solid skyblue;
+     }
+ }
