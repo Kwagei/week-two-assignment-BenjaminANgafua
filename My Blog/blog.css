@@ -13,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
 #container {
@@ -25,7 +25,7 @@ a {
 }
 
 #container>header {
-    background-color: rgb(47, 1, 250);
+    background-color: rgb(56, 15, 9);
     padding-left: 20%;
     display: flex;
     color: white;
@@ -37,14 +37,15 @@ a {
 
 #heading {
     text-align: center;
+    margin-top: 5%;
 }
 
 #container>nav {
     padding: 3%;
     border-radius: 5px;
     height: 70%;
-    margin: 2% 2% 2% 2%;
-    background-color: rgb(2, 6, 247);
+    margin: -65% 2% 2% 2%;
+    background-color: rgb(39, 7, 2);
     grid-area: nav;
 }
 
@@ -128,17 +129,17 @@ header li:hover::after {
     padding-top: 50%;
     border-radius: 5px;
     height: 70%;
-    margin: 2%;
+    margin: -65% 2% 2% 2%;
     grid-area: advertisement;
-    background-color: rgba(78, 76, 76, 0.979);
-    color: rgb(236, 241, 241);
+    background-color: rgba(248, 244, 244, 0.979);
 }
 
-#logo {
+
+/* #logo {
     position: absolute;
     margin-top: 4%;
     font-size: 50px;
-}
+} */
 
 video {
     margin-top: 2%;
@@ -148,9 +149,9 @@ video {
 
 #top-foot {
     display: flex;
+    color: thistle;
     padding-left: 60%;
-    color: black;
-    background-color: rgb(247, 243, 4);
+    background-color: rgb(54, 19, 5);
 }
 
 #down-foot {
@@ -203,6 +204,9 @@ video {
     }
     #top-foot {
         padding-left: 0%;
+    }
+    nav {
+        display: none;
     }
     #advertisement {
         display: none;
