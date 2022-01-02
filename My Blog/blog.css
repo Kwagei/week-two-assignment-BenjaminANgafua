@@ -3,7 +3,6 @@
 }
 
 body {
-    background: rgb(192, 187, 187);
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -11,21 +10,22 @@ body {
     font-size: 20px;
 }
 
-a {
+a,
+hr {
     text-decoration: none;
-    color: black !important;
+    color: rgb(247, 243, 6);
 }
 
 #container {
     display: grid;
     width: 100%;
     grid-template-areas: "head head head" "nav  main advertisement" "foot  foot foot ";
-    grid-template-rows: 12% 1fr 12%;
+    grid-template-rows: 3% 1fr 12%;
     grid-template-columns: 12% 1fr 12%;
 }
 
 #container>header {
-    background-color: rgb(173, 10, 89);
+    background-color: rgb(4, 2, 29);
     padding-left: 20%;
     display: flex;
     width: 100%;
@@ -43,8 +43,8 @@ a {
     padding: 3%;
     border-radius: 5px;
     height: 70%;
-    margin: 2% 2% 2% 2%;
-    background-color: rgb(82, 16, 48);
+    margin-right: 2%;
+    background-color: rgb(4, 2, 29);
     grid-area: nav;
 }
 
@@ -63,7 +63,7 @@ a {
 
 header li {
     list-style: none;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(247, 183, 6);
     display: inline-block;
     padding: 8px 25px;
 }
@@ -110,7 +110,6 @@ header li:hover::after {
     padding: 2%;
     color: thistle;
     margin: 0% 1% 1% 0%;
-    color: thistle;
     background-color: rgb(2, 2, 2);
 }
 
@@ -128,17 +127,10 @@ header li:hover::after {
     padding-top: 50%;
     border-radius: 5px;
     height: 70%;
-    margin: 2% 2% 2% 2%;
+    margin-left: 2%;
     grid-area: advertisement;
     background-color: rgb(202, 202, 197)
 }
-
-
-/* #logo {
-    position: absolute;
-    margin-top: 4%;
-    font-size: 50px;
-} */
 
 video {
     margin-top: 2%;
@@ -148,22 +140,34 @@ video {
 
 #top-foot {
     display: flex;
-    color: thistle;
     padding-left: 60%;
-    background-color: rgb(9, 54, 5);
+    background-color: rgba(236, 164, 8, 0.966);
 }
 
 #down-foot {
     display: flex;
-    color: thistle;
-    background-color: black;
     font-size: medium;
+    color: thistle;
+    background-color: rgb(13, 1, 43);
     padding-left: 2%;
 }
 
 #big-img {
-    width: 500px;
+    width: 100%;
     height: 300px;
+    padding: 5px 4px;
+}
+
+.fb {
+    border: solid 5px rgb(255, 251, 0);
+    border-radius: 50% !important;
+    height: 50px;
+    width: 45px;
+    /* padding: 10%; */
+}
+
+.smedia {
+    color: rgb(255, 251, 0);
 }
 
 @media (max-width:950px) {
@@ -181,6 +185,7 @@ video {
         font-size: 12px;
     }
     #head-img {
+        padding: 15px;
         display: block;
     }
     #inner-div {
@@ -193,14 +198,6 @@ video {
     #container>main {
         margin-top: 2%;
     }
-    /* #main-1,
-    #main-2 {
-        width: 88%; */
-    /* } */
-    #big-img {
-        width: 100%;
-        height: 100%;
-    }
     #top-foot {
         padding-left: 0%;
     }
@@ -211,6 +208,7 @@ video {
         display: none;
     }
     footer {
+        display: grid;
         width: 100%;
     }
 }
