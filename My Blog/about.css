@@ -50,7 +50,7 @@ nav a {
     padding: 3%;
     border-radius: 5px;
     height: 70%;
-    margin: -42% 2% 2% 2%;
+    /* margin: -42% 2% 2% 2%; */
     background-color: rgb(39, 7, 2);
     grid-area: nav;
 }
