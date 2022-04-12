@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+    <link rel="icon" href="../Benjamin.png">
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="#video">
+                <li>Video</li>
+            </a>
+            <a href="#Audio">
+                <li>Audio</li>
+            </a>
+            <a href="../Calendar/index.html" target="_blank">
+                <li>Calendar</li>
+            </a>
+            <a href="../profolio/portfolio.html" target="_blank">
+                <li> Portfolio</li>
+            </a>
+            </a>
+            <a href="../Registration Form/Registration.html" target="_blank">
+                <li> Registration</li>
+            </a>
+            </a>
+            <a href="../Report Card/HTML.html" target="_blank">
+                <li> Report Card</li>
+            </a>
+
+        </ul>
+    </nav>
+    <header>
+        <h1>Software Engineering Academy</h1>
+        <h3>Du-port Road, Monrovia-Liberia <br> P.o. box 1997
+        </h3>
+        <hr>
+    </header>
+    <main>
+        <form action="complete">
+            <table>
+                <label> Full Name:
+                    <input type="text" placeholder="eg.Benjamin A. Ngafua" name="name" id="name" autocapitalize="words" required></td>
+                </label> <br><br>
+                <label>
+                    Gender:
+                    <input type="radio" name="sex" value="male">Male
+                    <input type="radio" name="sex" value="female">Female
+                <label> <br><br>
+                <label for="DOB">
+                    Date of Birth:
+                    <input type="datetime-local" required>
+                </label>
+                <br><br>
+                <label for="counties"> County of Origin:
+                    <select required>
+                        <option value="Grand Gedeh">Grand Gedeh</option>
+                        <option value="Lofa">Lofa</option>
+                        <option value="Montserrado">Montserrado</option>
+                        <option value="Grand Cape Mount">Grand Cape Mount</option>
+                        <option value="Grand Bassa">Grand Bassa</option>
+                        <option value="Grand Kru">Grand Kru</option>
+                        <option value="Margibi">Margibi</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Bong">Bong</option>
+                        <option value="Bomi">Bomi</option>
+                        <option value="Nimba">Nimba</option>
+                        <option value="Sinoe">Sinoe</option>
+                        <option value="River Gee">River Gee</option>
+                        <option value="River Cess">River Cess</option>
+                        <option value="Gbapolu">Gbapolu</option>
+                    </select>
+                </label> <br><br>
+                <label for="password">
+                    Password: <input placeholder="password" type="password" maxlength="8" required>
+                </label> <br><br>
+                <label for="email">
+                    Email: <input type="email" placeholder="eg.@gmail.com" required>
+                </label> <br><br>
+                <label for="phone">
+                    Phone no.: <select name="tel" id="tel">
+                        <option value="countryCode">+234</option>
+                        <option value="countryCode">+231</option>
+                        <option value="countryCode">+452</option>
+                        <option value="countryCode">+513</option>
+                        <option value="countryCode">+119</option>
+                    </select>
+                    <input type="tel" maxlength="10" placeholder="0775939247" required>
+                </label> <br><br>
+                <label for="text">
+                    <textarea name="message" id="message" cols="30" rows="10" autocapitalize="sentences" maxlength="3000" required>Write a message</textarea>
+                </label> <br>
+                <button type="submit">submit</button>
+            </table>
+        </form>
+    </main>
+    <footer>
+
+        <a href="../My Blog/Blog.html" target="_blank">
+            Blog |
+        </a>
+        <a href="./Contact.html" target="_blank">
+            Contact |
+        </a>
+        <a href="Aboutpage.html" target="_blank">
+            About
+        </a>
+    </footer>
+</body>
+
+</html>
